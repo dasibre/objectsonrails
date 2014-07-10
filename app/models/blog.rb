@@ -24,6 +24,7 @@ class Blog
     def add_entry(entry)
     	entries << entry
     end
+    
 	private
 	def post_source
 		@post_source ||= Post.public_method(:new)
